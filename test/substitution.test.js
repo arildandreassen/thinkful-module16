@@ -2,7 +2,7 @@
 const { expect } = require("chai");
 const { substitution } = require("../src/substitution");
 
-describe.only("substitution tests written by me", () => {
+describe("substitution tests written by me", () => {
   it("should encode substitution", () => {
     const message = "today is a good day to stretch your legs";
     const alphabet = "qwertyuiopasdfghjklzxcvbnm";
